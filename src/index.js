@@ -1,6 +1,6 @@
 import React,{ useState, createContext, useContext } from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter as Router, Route, Switch, useHistory, useLocation } from "react-router-dom";
+import { HashRouter as Router, Route, Switch, useHistory, useLocation } from "react-router-dom";
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Login from './pages/login/Login'
